@@ -27,6 +27,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="131.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="m6h-p0-hKs">
+                                                    <rect key="frame" x="51.5" y="53" width="37" height="37"/>
+                                                    <color key="color" red="0.032477866860000003" green="0.41309416290000001" blue="0.38140207529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </activityIndicatorView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chicken-fingers" translatesAutoresizingMaskIntoConstraints="NO" id="3Eo-8l-rFu">
                                                     <rect key="frame" x="20" y="21" width="100" height="100.5"/>
                                                     <constraints>
@@ -51,8 +55,10 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="8j4-Tc-KHv" firstAttribute="leading" secondItem="3Eo-8l-rFu" secondAttribute="trailing" constant="20" id="4LC-NQ-Zqf"/>
+                                                <constraint firstItem="m6h-p0-hKs" firstAttribute="centerY" secondItem="3Eo-8l-rFu" secondAttribute="centerY" id="76q-R2-Kw8"/>
                                                 <constraint firstItem="8j4-Tc-KHv" firstAttribute="centerY" secondItem="3Eo-8l-rFu" secondAttribute="centerY" id="APj-jj-Nbt"/>
                                                 <constraint firstAttribute="trailing" secondItem="8j4-Tc-KHv" secondAttribute="trailing" constant="8" id="Dld-4U-PUb"/>
+                                                <constraint firstItem="m6h-p0-hKs" firstAttribute="centerX" secondItem="3Eo-8l-rFu" secondAttribute="centerX" id="EM3-Ur-G6K"/>
                                                 <constraint firstItem="fzI-Wx-c9b" firstAttribute="leading" secondItem="8j4-Tc-KHv" secondAttribute="leading" id="H3W-Jm-xXB"/>
                                                 <constraint firstItem="3Eo-8l-rFu" firstAttribute="leading" secondItem="9nJ-Ql-sI7" secondAttribute="leading" constant="20" id="ReF-S0-5Xy"/>
                                                 <constraint firstItem="3Eo-8l-rFu" firstAttribute="top" secondItem="9nJ-Ql-sI7" secondAttribute="topMargin" constant="10" id="c1Z-bg-7Z6"/>
@@ -481,6 +487,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="dPw-jd-4as">
+                                                    <rect key="frame" x="51.5" y="42" width="37" height="37"/>
+                                                    <color key="color" red="0.0" green="0.38920813799999998" blue="0.3781559169" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </activityIndicatorView>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chicken-fingers" translatesAutoresizingMaskIntoConstraints="NO" id="H5w-2O-jtD">
                                                     <rect key="frame" x="20" y="10" width="100" height="100.5"/>
                                                     <constraints>
@@ -503,9 +513,11 @@
                                                 <constraint firstItem="3w3-BD-sXz" firstAttribute="centerY" secondItem="H5w-2O-jtD" secondAttribute="centerY" id="8dI-em-HA0"/>
                                                 <constraint firstItem="H5w-2O-jtD" firstAttribute="leading" secondItem="coG-CT-j3J" secondAttribute="leading" constant="20" id="9pI-sy-xSp"/>
                                                 <constraint firstItem="3w3-BD-sXz" firstAttribute="leading" secondItem="H5w-2O-jtD" secondAttribute="trailing" constant="15" id="Lna-ih-jIW"/>
+                                                <constraint firstItem="dPw-jd-4as" firstAttribute="centerY" secondItem="H5w-2O-jtD" secondAttribute="centerY" id="QDK-Z0-Meq"/>
                                                 <constraint firstItem="H5w-2O-jtD" firstAttribute="top" secondItem="coG-CT-j3J" secondAttribute="top" constant="10" id="QJ3-TS-M2C"/>
                                                 <constraint firstItem="nHN-PN-HmY" firstAttribute="top" secondItem="3w3-BD-sXz" secondAttribute="bottom" constant="12" id="Xov-0J-wUt"/>
                                                 <constraint firstItem="nHN-PN-HmY" firstAttribute="leading" secondItem="3w3-BD-sXz" secondAttribute="leading" id="YGw-r8-NcI"/>
+                                                <constraint firstItem="dPw-jd-4as" firstAttribute="centerX" secondItem="H5w-2O-jtD" secondAttribute="centerX" id="l6X-g2-EyF"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

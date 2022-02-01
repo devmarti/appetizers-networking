@@ -23,6 +23,7 @@ class AppetizersCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         appetizerImage?.layer.cornerRadius = 6
+        self.appetizerImage.image = nil
     }
     
     private func renderUI() {
