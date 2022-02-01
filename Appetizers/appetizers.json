@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "calories": 300,
+      "name": "Asian Flank Steak",
+      "price": 8.99,
+      "protein": 14,
+      "description": "This perfectly thin cut just melts in your mouth.",
+      "carbs": 0,
+      "imageName": "asian-flank-steak"
+    },
+    {
+      "id": 2,
+      "calories": 450,
+      "protein": 4,
+      "price": 6.99,
+      "name": "Blackened Shrimp",
+      "description": "Seasoned shrimp from the depths of the Atlantic Ocean.",
+      "carbs": 3,
+      "imageName": "blackened-shrimp"
+    },
+    {
+      "calories": 800,
+      "id": 3,
+      "name": "Buffalo Chicken Bites",
+      "description": "The tasty bites of chicken have just the right amount of kick to them.",
+      "protein": 5,
+      "price": 7.49,
+      "carbs": 22,
+      "imageName": "buffalo-chicken-bites"
+    },
+    {
+      "id": 4,
+      "calories": 480,
+      "name": "Chicken Avocado Spring Roll",
+      "description": "These won't last 10 seconds once they hit the table.",
+      "price": 12.99,
+      "protein": 7,
+      "carbs": 19,
+      "imageName": "chicken-avocado-spring-roll"
+    },
+    {
+      "calories": 580,
+      "id": 5,
+      "name": "Chicken Dumplings",
+      "price": 8.99,
+      "description": "It's really hard to keep coming up with these descriptions.",
+      "protein": 4,
+      "carbs": 14,
+      "imageName": "chicken-dumplings"
+    },
+    {
+      "id": 6,
+      "calories": 675,
+      "name": "Chicken Fingers",
+      "description": "You can never go wrong with some good tenders.",
+      "price": 9.99,
+      "protein": 9,
+      "imageName": "chicken-fingers",
+      "carbs": 5
+    },
+    {
+      "id": 7,
+      "calories": 700,
+      "name": "Chicken Wings",
+      "description": "You'll need extra napkins with these tasty treats.",
+      "price": 11.49,
+      "protein": 13,
+      "imageName": "chicken-wings",
+      "carbs": 11
+    },
+    {
+      "calories": 415,
+      "id": 8,
+      "protein": 2,
+      "price": 8.29,
+      "description": "I'm getting soooo hungry building this app...",
+      "name": "Fried Cheese Ravioli",
+      "imageName": "fried-cheese-ravioli",
+      "carbs": 29
+    },
+    {
+      "id": 9,
+      "calories": 625,
+      "name": "Jumbo Tater Tots",
+      "price": 13.99,
+      "description": "Scrumptious tots with a side of ranch.",
+      "protein": 3,
+      "carbs": 40,
+      "imageName": "jumbo-tater-tot"
+    },
+    {
+      "calories": 500,
+      "id": 10,
+      "protein": 33,
+      "price": 12.99,
+      "description": "It's a spiiiiicy meat-a-ball!",
+      "name": "Meatballs",
+      "carbs": 2,
+      "imageName": "meatballs"
+    },
+    {
+      "calories": 930,
+      "id": 11,
+      "name": "Mozzarella Sticks",
+      "price": 6.99,
+      "protein": 2,
+      "description": "The best appetizer there is.\nDon't @ me.",
+      "carbs": 32,
+      "imageName": "mozzarella-sticks"
+    },
+    {
+      "id": 12,
+      "calories": 725,
+      "name": "Philly Cheesesteak Sliders",
+      "price": 10.99,
+      "protein": 28,
+      "description": "These look incredible. That's it. That's the description.",
+      "imageName": "philly-cheesesteak-sliders",
+      "carbs": 28
+    },
+    {
+      "calories": 270,
+      "id": 13,
+      "name": "Rainbow Spring Rolls",
+      "description": "How did these even make the menu???",
+      "protein": 2,
+      "price": 5.99,
+      "carbs": 4,
+      "imageName": "rainbow-spring-rolls"
+    },
+    {
+      "id": 14,
+      "calories": 850,
+      "protein": 4,
+      "description": "I'm getting hungrier just looking at these.",
+      "name": "Stuffed Shells",
+      "price": 12.49,
+      "imageName": "stuff-shells",
+      "carbs": 42
+    }
+  ]
